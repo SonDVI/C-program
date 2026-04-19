@@ -1,0 +1,49 @@
+2.2 : VARIABLES 
+
+CC
+
+- The "places" in which we store data are called objects. To access an object, we need a "name". A named object is called a variable and has a specific type (such as 'int' or 'string') that determines what can be put into the object and which operations can be applied. The data items we put into variables are called "values". A statement that defines a variable is called "definition", and a definition can (and usually should ) provide an intitial value. Consider:
+
+        string name = "Annemarie";
+
+        int number_of_steps = 39;
+    
+    The value after the { = } is called an intializer
+    You can visualize these variables like this:
+        number_of_steps: 39 ( type:int )
+
+        name: Annemarie ( type:string )
+
+*You cannot put valies of the wrong type into a variable:
+
+    string name2 = 39;
+    //error: 39 isn't a string//
+
+- C++ provides a rather large number of types. However, you can write perfectly good programs using five of those:
+
+    int number_of_steps = 39;
+    //int for intergers
+
+    double flying_time = 3.5;
+    //double for floating-point numbers 
+
+    char decimal_point = '.';
+    //char for individual characters 
+
+    bool tap_on = true;
+    //bool for logical variables 
+
+- 'double' is short for "double-precision floating point". Floating point is the computer's approximation to the mathematical concept of a real number.
+   Note that each of these types has its own charateristic style of literals:
+    
+    39              //int : an interger -> a sequence of digits.
+
+    3.5             //double : a floating-point number -> a sequence of floating-point.
+
+    '.'             //char : an individual character enclosed in single quotes -> a single character in single quotes.
+
+    "Annemarie"     //string : a sequence of characters delimited by double quotes.
+
+    true            //bool : either true of false.
+
+

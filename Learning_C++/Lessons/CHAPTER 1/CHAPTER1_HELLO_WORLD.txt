@@ -1,0 +1,39 @@
+# CHAPTER 1 : HELLO, WORLD!
+
+The code we write are known as source code and the compiler compiled it into object code or machine code for computer excuvating.
+
+
+
+# Every function must have a function called main. A function has four parts:
+
+\*A "return type", example for "int" it will return a integer value.
+
+\*A "name", in this case is "main"
+
+\*A "parameter list" enclosed in parentheses here (); in this case, the parameter list is empty.
+
+\*A "function body" where we list the actions that function is to perform.
+
+
+# THE DIFFERENT BETWEEN MODULE, INCLUDE, IMPORT IN STD (STANDARD LIBRARY)
+
+- So in the past we use include but it's not suitable for nowadays because of its unefficiency.
+
+- So we use "import std;" instead, it's using all the data from the Standard Library, and combine with complier so it's more useful and efficiency.
+
+
+
+- Why is it? Imaging, we have a BIG LIBRARY ( STD ), so Include <iostreasm>, or include <vector> is just using a number of separated rooms in that LIBRARY, on the other hand, "import std;" means we using all the rooms in that LIBRARY
+
+
+
+- MODULE is a origanization of CODE, it's using for different targets. Std is a big and important MODULE in C++ progress. A module has a unique role for unique separated tasks, and it includes many functions in them.
+
+
+
+# LINKING
+
+
+- A program usually consists of several separate parts often developed by different people.
+- These separate parts must be complied and the ruslting object code files must be linked together to form an executable program.
+

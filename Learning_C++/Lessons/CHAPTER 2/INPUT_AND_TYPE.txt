@@ -1,0 +1,26 @@
+#CC#
+
+- The input operation ">>" (get from) is sensitive to type; that is, it reads according to the type of variable you read into. For example:
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    cout << "Please enter your first name and age\n";
+
+    string first_name = "???";
+    //string variables ("???" indicates "don't know the name")
+
+    int age = -1;
+    //integer variable (-1 means "don't know the age")
+
+    cin >> first_name >> age;
+    //read a string followed by an integer
+
+    cout << "Hello" << first_name << "(age " << age << " )\n";
+}
+
+So, if you type in "Carlos 22" the >> operator will read Carlos into first_name, 22 into age, and produce this output:
+
+    Hello, Carlos (age 22)
+

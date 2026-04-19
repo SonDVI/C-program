@@ -1,0 +1,15 @@
+#POSTSCRIPT#
+
+CC:
+
+Điều gì khiến chương trình “Hello, World!” quan trọng đến vậy? Mục đích của nó là giúp chúng ta làm quen với những công cụ lập trình cơ bản. Mỗi khi tiếp cận một công cụ mới, chúng ta thường làm một ví dụ cực kỳ đơn giản như “Hello, World!”. Nhờ đó, việc học được tách thành hai phần: trước hết học những điều cơ bản về công cụ bằng một chương trình tầm thường, sau đó mới học các chương trình phức tạp hơn mà không bị các công cụ làm phân tâm. Học công cụ và ngôn ngữ cùng lúc khó hơn rất nhiều so với việc làm từng bước một. Cách tiếp cận này—đơn giản hóa việc học một nhiệm vụ phức tạp bằng cách chia nhỏ thành một chuỗi bước nhỏ hơn (và dễ kiểm soát hơn)—không chỉ giới hạn trong lập trình và máy tính. Nó phổ biến và hữu ích trong hầu hết lĩnh vực của cuộc sống, đặc biệt là những lĩnh vực đòi hỏi kỹ năng thực hành.
+
+# Tóm tắt ý chính
+
+* “Hello, World!” giúp **làm quen công cụ** lập trình ở mức tối thiểu.
+* **Tách quá trình học** thành 2 giai đoạn:
+
+  1. nắm công cụ bằng ví dụ rất đơn giản;
+  2. học chương trình phức tạp hơn sau.
+* Tránh **học đồng thời** công cụ và ngôn ngữ vì dễ rối và khó hơn.
+* Nguyên tắc **chia nhỏ nhiệm vụ phức tạp** thành các bước nhỏ áp dụng rộng rãi, không chỉ trong lập trình mà trong mọi kỹ năng thực hành.

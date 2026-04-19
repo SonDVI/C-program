@@ -1,0 +1,95 @@
+#CHAPTER 2# : 
+            OBJECTS, TYPES, AND VALUES.
+
+**This chapter introduces the basics of storing and using data in a program. To do so, we first concentrate on reading in data from the keyboard. After establishing the fundamental notions of objects (đối tượng), types (kiểu), values (giá trị), and variables  (biến), we introduce several operators (các phép toán trong lập trình) and give many examples of use of variables of types "char", "int", "double" and "string".**
+
+#2.1 INPUT
+- "Hello World" program only print it to the screen (produces output only).
+- Real programs tend to produce results based on some input we give them,  rather than just doing exactly the same thing each time we execute them.
+
+
+
+#CC#
+
+- To read something, we need somewhere to read into (store it), in the computer's memory to place what we read. That "place" called an "object". "Object" is a region of memory with a "type" that specifies what kind of information can be placed in it. A Named Object is called a "variable".
+
+- We can think of object as a "box" into which you can put a value of the object's type.
+
+!EXAMPLE1!:
+
+age: 42 ( type int (integer))
+
+This would represent an object of type "int" named "age" containing the integer value "42".
+
+
+!EXAMPLE2!:
+
+#include "PPP.h"
+using namespace std;
+
+
+int main() {
+    cout << "Please enter your first name (followed by "enter"):\n";
+
+    string first_name   //first_name is a variable of type string
+
+    cin >> first_name   //read characters in first_name
+
+    cout << "Hello, " << first_name << "!n";
+    //print the input to the screen
+}
+
+
+- Similarly, we'll sometimes present code that will work only if it is placed in "main()" or some other function, like this:
+    
+    cout << "Please enter your first name (followed by 
+    'enter'):\n;
+
+- "Prompt" = a message encouraging the user to enter something (Ex: Please enter your name).
+
+- first_name is a region of memory (object) type string, is used to store the value we've entered. Let's look at those three lines in turn:
+    
+    string first_name;  //first_name is a variable of type string
+
+This sets aside an area of memory for holding a string of characters and gives it the name first_name:
+
+    first_name: ......... ( type: string)
+
+
+Astatement that introduces a new name to a program and set aside memory for a variable is called a "definition". (thêm cái gì, gọi thêm object vào memory, program thì gọi là định nghĩa)
+    - The next line reads characters from input (keyboard) into that variable:
+
+        cin >> first_name;  //read characters into first_name
+
+- The name "cin" refers to the standard input stream (pronounced "see-in", for /c'haracter 'in'put / ) defined in the standard library. The second operand of the ">>" operater ( means "get from" ) specifies where that input goes. So, if we type some first name, such as "Nicholas", followed by a newline, the string "Nicholas" becomes the value of first_name:
+
+    first_name: value:Nicholas (type string)
+
+
+#AA#
+
++ The newline is necessary to get the machine’s attention. Until a
+newline is entered (the Enter key is hit), the computer simply
+collects characters. That “delay” gives you the chance to change
+your mind, erase some characters and replace them with others
+before hitting Enter. The newline will not be part of the string stored
+in memory.
+
+    Having gotten the input string into first_name, we can use it:
+
+        cout << "Hello, " << first_name << "!\n";
+    
+    This prints Hello, followed by Nicholas ( the value of first_name) followed by ! and a newline (\n) on the screen:
+        Hello, Nicholas!
+
+- If we had liked repetition on extra typing, we could have written three separate statements instead by using three < cout << "...." >.
+
+-However, we are indifferent typists, and more importantly strongly dislike needless repetition ( more repetition = opportunity for errors ), so we combined those three line into a single output statement.
+
+    Note the way we use quotes around characters in "Hello, " but not for first_name. We use quotes when we want a literal string. When don't, we refer to the value of object.
+
+        cout << "first_name " << "is "<< first_name;
+
+    //Here "first_name" gives us ten charaters, but first_name with no quotes gives us the value of the variable first_name// So we get:
+        
+        first_name is Nicholas

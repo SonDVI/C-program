@@ -1,0 +1,80 @@
+# REVIEW OF CHAPTER 1 #
+
+[1]: The purpose of the "Hello, World!" program is a big move in Programming Developement of the beginner, ready to open a new road, era of beginner in any Programming Languages.
+
+[2]:Name the four parts of a function :
+1. The "return type". For example in "int main" (int stand for integer), so it returns a integer value.
+
+2.The "name" of the function.
+
+3.The "parameter list" which is inside the (). If it's space in it means nothing.
+
+4.The "function body": Including actions, command we give inside that function.
+
+[3]:Name a function that must appear in every C++ program:
+    int main() {
+        (function body)
+        return 0;
+    }
+
+[4]:In the "Hello, World!" program, what is the purpose of the line "return 0;"?
+- "return 0;" means when a program in int main function perform, work, excuvate successfully , it will return a 0 value ( checking if program is work or not).
+
+[5]:What is the purpose of the compiler:
+- The purpose of compiler is complied the source code into object code or machine code for computer read it and excuvate the program.
+
+[6]: What is the purpose of the import statement?
+- "import" statement means we import a available MODULE into our file to use it clearly and fast. (NOT A COPY-PASTE, IT MEANS CONNECTING,COLLATING WITH AVAILABLE MODULE).
+
+[7]:What is the purpose of the #include statement?
+-It's a preprocessor directive. Before compilation, the preprocessor literally copies the contents of the named file and pastes it into your sources at the #include line (pure textual inclusion).
+
+[8]:What does a .cpp suffix at the end of a file name signify in C++?
+- It defines a c++ file for computer understand that's a c++ file. CPP is stand for "C plus plus" or "C++".
+
+[9]:What does the linker do for your program?
+
+- A program usually consists of several separate parts, often developed by different people. These separated parts must be compiled and the resulting object code files must be linked together to form an executable program by linker.
+
+[10]:What is the difference between a source file and an object file?
+- So source file is what we have wroten by using programming languages such as C++/C/Python, so on to communicate with our computer through it. Object code is a traslation version of source code into computer languages has done by compiler in order to help computer understand and excuvate what we order them.
+
+
+[11]: What is an executable?
+- It's made from source code -> compiler -> linker -> excutable file.
+- In Window, the excutable file usually end with .exe or .dll.
+- When we run a program we need its executable.
+
+
+[12]: What is an IDE and what does it do for you?
+- IDE stands for "Integrated development environment" (Moi truong phat trien tich hop).
+- IDE consists neccessary tools for developer in only 1 environment. Such as:
++ Editor : An editor with many useful features such as "color coding" help developer to distinguish different parts of program's source code.
+
++ Some other utilities:
+> DEBUG : remove, fix the bugs, error in program.
+> COMPILE : traslate source code to object code.
+> RUN : excuvating program.
+
+- It helps developer in programming, simple and clean. Also help program run efficiency because of its utilities.
+
+
+[13] : How do you get compiled program to run?
+- First step, we need to convert source code into object code or machine code for computer to understand the command by using compiler.
+- Secondly, Those object code must be linked by linker to executable program.
+- Final steps, we have 2 choice here. One is using running command in terminal. Or using IDE , we just need a simple click, key combination to run it.
+
+[14] : What is comment?
+- Comment is a note, a detail, an explanation about the command we've wroten about the reason why using it, target or duty of it.
+- Comment not only help us who write the program understand the our program when open it again, but also help other developer understand what're we doing, how our program run, and the meaning of it.
+- comment use by "//" if you want a long comment, we use "/*        */".
+
+
+[15] : What is the purpose of a drill?
+- Drill is almost the same with exercise, but more understandable, easier. Drill usually help people understand the core of the problem by using simple example, explantion. It usually appears after a define or after a program, source code of the author.
+
+
+[16] : If you understand everything in the textbook, why is it necessary to pratice?
+- Pratice is very import because of its pratical. Understanding the meanings, define not mean we can apply it into a program or reality, so to understand how we can "use it" WHEN?WHY?WHICH?WHAT we need to pratice to build a programming thinking system.
+
+

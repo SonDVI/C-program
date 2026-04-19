@@ -1,0 +1,33 @@
+{
+  // --- GIAO DIỆN CHUNG (Theme & Font) ---
+  "json.schemaStore.enable": false,
+  "workbench.preferredDarkColorTheme": "Palenight (Mild Contrast)",
+  "workbench.preferredHighContrastColorTheme": "Palenight (Mild Contrast)",
+  "workbench.preferredHighContrastLightColorTheme": "Palenight (Mild Contrast)",
+  "workbench.preferredLightColorTheme": "Palenight (Mild Contrast)",
+  "editor.fontSize": 18,
+  "editor.fontLigatures": true,
+
+  // --- HIỆU ỨNG CUỘN & CON TRỎ (Cực mượt) ---
+  "editor.smoothScrolling": true,
+  "workbench.list.smoothScrolling": true,
+  "editor.cursorStyle": "line",
+  "editor.cursorWidth": 2,
+  "editor.cursorBlinking": "expand",
+  "editor.cursorSmoothCaretAnimation": "on",
+
+  // --- CĂN CHỈNH & ĐỊNH DẠNG CODE ---
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+
+  "files.associations": {
+    "*.c": "c",
+    "*.cpp": "cpp",
+    "*.h": "c"
+  },
+  "C_Cpp.intelliSenseEngine": "default",
+  "editor.semanticHighlighting.enabled": true,
+  "terminal.explorerKind": "integrated"
+}
