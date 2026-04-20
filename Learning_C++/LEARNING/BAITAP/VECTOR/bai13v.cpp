@@ -1,11 +1,15 @@
+/*Cho 1 bảng số có N dòng và M cột, bạn hãy lưu bảng số này vào một vector các vector dạng vector> trong đó mỗi hàng của bảng số bạn lưu vào 1 vector. Hãy lật ngược từng dòng của bảng số sau đó in ra màn hình.*/
 #include <bits/stdc++.h>
 using namespace std;
 
 void nhap(vector<vector<int>> &v, int n, int m){
     for(int i = 0; i < n; i++) {
+        vector<int> row;
         for(int j = 0; j < m; j++) {
-            cin >> v[i][j];
+            int x; cin >> x;
+            row.push_back(x);
         }
+        v.push_back(row);
     }
 }
 

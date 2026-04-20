@@ -1,20 +1,34 @@
 #include <bits/stdc++.h>
 
 using namespace std;
+using ll =long long;
 
-
-int main() {
-    int n; cin >> n;
-    vector<pair<int, int>, int> v(n);
-    vector<int> v1;
-    for(int i = 0; i < n; i++) cin >> v[i].first >> v[i].second >> v[i];
-
-    for(int i = 0; i < n; i++) {
-        int sum_xyz = v[i].first + v[i].second + v[i];
-        v1.push_back(sum_xyz);
-    }
-
-    for(auto k : v1) {
-        cout << k << " ";                                                               
-    }
+char to_hex_char(int d) {
+    if(d < 10) return '0' + d;
+    else return 'a' + (d - 10);
 }
+vector<char> convert_number(long long n){
+    vector<char> v;
+    while(n != 0) {
+        v.push_back(to_hex_char(n % 16));
+        n /= 16;
+    }
+    reverse(v.begin(), v.end());
+    return v;
+}
+
+int main(){
+    int t; cin >> t;
+    while(t--){
+        long long n;
+        cin >> n;
+        vector<char> res = convert_number(n);
+        for(char x : res){
+            cout << x;
+        }
+        cout << endl;
+    }
+    return 0;
+}
+
+

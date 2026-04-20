@@ -11,6 +11,7 @@ using namespace std;
 /*- pop_back() : xóa phần tử ở cuối vector
     v : rỗng => segmentation fault.
 */
+//reverse(v.begin(), v.end()) :  Đảo ngược dãy từ vị trí đầu đến vị trí cuối. ( chỉ reverse đến số cuối tức là trước số mà v.end() trỏ đến( giống hàm sort )
 
 //empty() : kiểm tra vector có rỗng hay không, trả về true nếu rỗng, false nếu không rỗng
 
