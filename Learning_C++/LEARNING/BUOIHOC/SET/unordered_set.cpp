@@ -8,6 +8,9 @@ using namespace std;
 
 int main() {
     unordered_set<int> se = {3, 2, 1, 4, 5, 5, 3, 3, 5, 7};
-    //không có thứ tự tăng dần, giảm dần như set và multiset.
+    //không có thứ tự tăng dần, giảm dần như set và multiset, không lưu các giá trị bị trùng so với các giá trị đã xuất hiện.
     //điểm mạnh là độ phức tạp của các hàm chỉ ở O(1), rất nhanh.
+    for(auto x : se) {
+        cout << x << " ";
+    }
 }

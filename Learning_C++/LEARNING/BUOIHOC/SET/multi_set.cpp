@@ -9,4 +9,7 @@ using namespace std;
 //multiset khác với set có thể lọc giá trị trùng nhau.
 int main() {
     multiset<int> se = {3, 2, 1, 4 ,5 , 5, 3, 3, 5, 7};
+    for(auto x : se) {
+        cout << x << " ";
+    }
 }

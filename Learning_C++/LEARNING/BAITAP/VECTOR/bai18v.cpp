@@ -1,3 +1,4 @@
+/*Cho số N không âm 64 bit, bạn hãy in ra dạng thập lục phân của N. Bạn cần triển khai theo mã nguồn sau*/
 #include <bits/stdc++.h>
 
 using namespace std;
