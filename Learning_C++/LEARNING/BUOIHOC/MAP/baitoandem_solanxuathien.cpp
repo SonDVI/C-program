@@ -8,7 +8,7 @@ using namespace std;
 
 using ll = long long;
 
-//key : gia tri cua cac so kahc nhau
+//key : gia tri cua cac so khac nhau
 //value : so lan xuat hien
 
 int main() {
