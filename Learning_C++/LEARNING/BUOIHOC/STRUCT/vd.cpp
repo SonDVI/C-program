@@ -8,6 +8,13 @@ struct Product{
     void show() {
         cout << id << " " << name << " " << fixed << setprecision(2) << price << endl;
     }
+    Product() {
+        cout << "Ham tao khong co tham so!"; //constructor : Hàm tạo, không có giá trị trả về.
+    }
+    Product(string ma, string ten, int gia) {
+        cout << "Ham tao day du tham so";
+        id = ma; name = ten; price = gia;
+    }
 };
 bool cmp(Product x, Product y) {
     return x.price > y.price;
