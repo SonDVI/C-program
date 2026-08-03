@@ -29,5 +29,6 @@
   },
   "C_Cpp.intelliSenseEngine": "default",
   "editor.semanticHighlighting.enabled": true,
-  "terminal.explorerKind": "integrated"
+  "terminal.explorerKind": "integrated",
+  "workbench.experimental.modernUI": false
 }

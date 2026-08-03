@@ -48,6 +48,7 @@ class Product{
         cout << "Ham tao duoc goi !\n";
         id = "101"; name = "laptop";
         price = 500000;
+        //hàm tạo không có kiểu trả về
     }
 
     /*Product(string ma, string ten, double gia) {
@@ -74,15 +75,27 @@ class Product{
     void setName(string newName){
         name = newName;
     }
-    void display(){
+    void display();/*{
         cout << id << " " << name << " " << price << endl;
-    }
+    }*/
     ~Product() {
         cout << "Ham huy !\n";
-    } // Sử dụng hàm hủy khi có con trỏ để giải phong bộ nhớ.
+    } // Sử dụng hàm hủy khi 1 lớp có thuộc tính con trỏ để giải phong bộ nhớ.
+
+
+    //Hàm bạn của Product
+    friend void hienthi(Product x); // có thể truy cập vào private informations
 };
 
+void hienthi(Product x) { // Hàm bạn
+    cout << x.id << " " << x.name << " " << x.price << endl;
+}
 
+
+void Product::display() {
+    cout << id << " " << name << " " << price << endl;
+    // xây dựng hàm bên ngoài ngoài lớp, nhớ phải có cú pháp (toán tử phạm vi)ClassName::Tên Hàm để biết hàm này thuộc class nào. 
+}
 
 int main() {
    //Product p;

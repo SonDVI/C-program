@@ -5,7 +5,7 @@
 
 
         -> begin() : iterator trỏ đến thằng đầu tiên trong vector
-        -> end(): iteratr trỏ dến phần tử đầu tiên đằng sau phân tử cuối cùng.
+        -> end(): iterator trỏ dến phần tử đầu tiên đằng sau phân tử cuối cùng.
 
         +) REVERSE :
         ->  rend() : iterator trỏ đến phần tử đầu tiên đằng trước phân tử đầu.
